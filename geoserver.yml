@@ -194,6 +194,8 @@ spring.config.activate.on-profile: wcs_service
 spring.config.activate.on-profile: wps_service
 ---
 spring.config.activate.on-profile: restconfig_service
+gwc:
+  web-ui: false
 ---
 spring.config.activate.on-profile: gwc_service
 ---
